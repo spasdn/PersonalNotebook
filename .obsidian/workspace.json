@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "d628be534902546a",
@@ -156,6 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "00_Inbox/Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -246,21 +246,23 @@
       "smart-cluster-graph:Smart Cluster Graph": false
     }
   },
-  "active": "7ba9bcc594ebe0e3",
+  "active": "3d64ac6958fa67c9",
   "lastOpenFiles": [
+    "00_Inbox/Markdown de prueba.md",
+    "40_Archive/Untitled Document",
+    "30_Resources/34_CalculationsSheets/Untitled Document",
+    "30_Resources/33_References/Untitled Document",
+    "30_Resources/32_CatalogsAndManuals/Untitled Document",
+    "30_Resources/31_TechnicalNorms/Untitled Document",
+    "20_Areas/23_Maintenance/Untitled Document",
+    "20_Areas/22_QualityManagment/Untitled Document",
+    "20_Areas/21_ProfessionalDevelopment/Untitled Document",
+    "10_Projects/12_Practical-Manufacturing/Untitled Document",
+    "00_Inbox/Untitled Document",
+    "00_Inbox/Untitled.md",
     "99_Templates/Template-Project-Theorical.md",
     "99_Templates/Template-Project-Practical.md",
     "99_Templates/Template-Norms-Calculations.md",
-    "Untitled.base",
-    "99_Templates",
-    "30_Resources/34_CalculationsSheets",
-    "30_Resources/33_References",
-    "30_Resources/32_CatalogsAndManuals",
-    "30_Resources/31_TechnicalNorms",
-    "20_Areas/23_Maintenance",
-    "20_Areas/22_QualityManagment",
-    "20_Areas/21_ProfessionalDevelopment",
-    "10_Projects/12_Practical-Manufacturing",
     "Agents/S2B Agent/AGENT.md",
     "Markdown de prueba.md",
     "Agents/Skills/canvas/SKILL.md",
