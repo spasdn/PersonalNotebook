@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "noteVersions": {
+    "Markdown de prueba.md": {
+      "modifiedAt": 1790014250911,
+      "size": 192
+    },
+    "Welcome.md": {
+      "modifiedAt": 1790012969358,
+      "size": 203
+    }
+  },
+  "emittedFingerprints": [
+    "2egke0"
+  ],
+  "cards": [
+    {
+      "id": "radar-2egke0",
+      "fingerprint": "2egke0",
+      "kind": "commitment",
+      "title": "Delete Welcome Vault Note",
+      "insight": "Delete the Welcome.md note to make the vault my own",
+      "sourcePaths": [
+        "Welcome.md"
+      ],
+      "confidence": "high",
+      "createdAt": 1790014255772,
+      "action": "Delete the Welcome.md note"
+    }
+  ],
+  "lastSuccessfulRunAt": 1790014255772
+}

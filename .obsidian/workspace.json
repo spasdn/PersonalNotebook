@@ -1,0 +1,275 @@
+{
+  "main": {
+    "id": "ffb1515f93cd0a39",
+    "type": "split",
+    "children": [
+      {
+        "id": "15210e874bd4d70c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "980723a6393c0913",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "194bc3f4248d0164",
+    "type": "split",
+    "children": [
+      {
+        "id": "b850a668452d4259",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d64ac6958fa67c9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "29ab10c9f7b90098",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f7277cb8c73c4790",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "d628be534902546a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b96185183ecffd3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5bb331765aaaaa9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "bdd42d9a558fa13a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "12f742958c3ed9b3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "dbf5f2d7ac4f5102",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f310ce428065c665",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "baabb1f14e9abb8f",
+            "type": "leaf",
+            "state": {
+              "type": "llm-helper-vault-radar",
+              "state": {},
+              "icon": "radar",
+              "title": "Vault Radar"
+            }
+          },
+          {
+            "id": "4c1007d3fde495ea",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "6f87940b72c34fe8",
+            "type": "leaf",
+            "state": {
+              "type": "smart-cluster-graph-view",
+              "state": {},
+              "icon": "dot-network",
+              "title": "Smart Cluster Graph"
+            }
+          },
+          {
+            "id": "9fb68ed568b364bf",
+            "type": "leaf",
+            "state": {
+              "type": "smart-gantt",
+              "state": {},
+              "icon": "smart-gantt",
+              "title": "Smart Gantt"
+            }
+          },
+          {
+            "id": "7ba9bcc594ebe0e3",
+            "type": "leaf",
+            "state": {
+              "type": "llm-helper-chat",
+              "state": {},
+              "icon": "messages-square",
+              "title": "LLM Chat"
+            }
+          }
+        ],
+        "currentTab": 9
+      }
+    ],
+    "direction": "horizontal",
+    "width": 782
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "local-llm-helper:LLM Helper": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "smart-connections:Smart Connections: Open random connection": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-lookup:Smart Lookup: Open lookup view": false,
+      "smart-context:Smart Context: List Named Contexts": false,
+      "smart-context:Smart Context: Open Builder": false,
+      "smart-context:Smart Context: Copy current": false,
+      "smart-templates:Smart Templates: Open template context": false,
+      "smart-second-brain:New chat": false,
+      "smart-second-brain:Search notes": false,
+      "smart-second-brain:Open smart graph": false,
+      "smart-gantt:Smart Gantt": false,
+      "smart-cluster-graph:Smart Cluster Graph": false
+    }
+  },
+  "active": "7ba9bcc594ebe0e3",
+  "lastOpenFiles": [
+    "99_Templates/Template-Project-Theorical.md",
+    "99_Templates/Template-Project-Practical.md",
+    "99_Templates/Template-Norms-Calculations.md",
+    "Untitled.base",
+    "99_Templates",
+    "30_Resources/34_CalculationsSheets",
+    "30_Resources/33_References",
+    "30_Resources/32_CatalogsAndManuals",
+    "30_Resources/31_TechnicalNorms",
+    "20_Areas/23_Maintenance",
+    "20_Areas/22_QualityManagment",
+    "20_Areas/21_ProfessionalDevelopment",
+    "10_Projects/12_Practical-Manufacturing",
+    "Agents/S2B Agent/AGENT.md",
+    "Markdown de prueba.md",
+    "Agents/Skills/canvas/SKILL.md",
+    "Agents/Skills/bases/SKILL.md",
+    "Agents/Skills/widgets/SKILL.md",
+    "Agents/Skills/web/SKILL.md",
+    "Agents/Skills/manage-skills/SKILL.md",
+    "Agents/Skills/manage-notes/SKILL.md",
+    "Agents/Skills/explore-vault/SKILL.md",
+    "Welcome.md"
+  ]
+}

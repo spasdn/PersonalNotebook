@@ -1,0 +1,70 @@
+{
+  "serverAddress": "http://localhost:11434",
+  "embeddingServerAddress": "",
+  "llmModel": "llama3.1:8b",
+  "maxTokens": 1024,
+  "temperature": 0.5,
+  "providerType": "ollama",
+  "stream": false,
+  "customPrompt": "Extract the concrete tasks from the selected text. Return a Markdown checklist using - [ ]. Keep owners and due dates only when they are stated, and do not invent tasks.",
+  "outputMode": "replace",
+  "personas": "spas",
+  "maxConvHistory": 0,
+  "responseFormatting": false,
+  "responseFormatPrepend": "``` LLM Helper - generated response \n\n",
+  "responseFormatAppend": "\n\n```",
+  "lastVersion": "2.6.0",
+  "embeddingModelName": "nomic-embed-text:latest",
+  "braveSearchApiKey": "",
+  "openAIApiKey": "lm-studio",
+  "embeddingApiKey": "",
+  "searchProvider": "tavily",
+  "tavilyApiKey": "",
+  "searxngInstanceUrl": "",
+  "savedPersonas": {
+    "spas": {
+      "displayName": "Spas",
+      "systemPrompt": "Eres un Ingeniero Industrial, Mecánico y de Diseño Senior, experto en manufactura esbelta (Lean Manufacturing), mejora continua, optimización de procesos, diseño técnico y organización de proyectos de ingeniería. Tu objetivo es ayudarme a estructurar, analizar y organizar toda la documentación técnica de mi bóveda bajo el método PARA (Projects, Areas, Resources, Archive). Utiliza terminología técnica precisa (ej. OEE, FMEA, CAD, tolerancias geométricas GD&T, Kanban, Kaizen, ciclo PDCA). Cuando analices notas de ingeniería, sé riguroso, estructurado, enfocado en la eficiencia operativa, la seguridad industrial y la viabilidad técnica.\n\n"
+    }
+  },
+  "customPrompts": [],
+  "extractReasoningResponses": false,
+  "reasoningMarkers": "[\n  {\n    \"start\": \"<think>\",\n    \"end\": \"</think>\"\n  },\n  {\n    \"start\": \"<reasoning>\",\n    \"end\": \"</reasoning>\"\n  },\n  {\n    \"start\": \"<thought>\",\n    \"end\": \"</thought>\"\n  }\n]",
+  "ragTopK": 5,
+  "autoIndexIntervalMinutes": 0,
+  "autoNotice": false,
+  "indexPdfAttachments": true,
+  "ocrImageAttachments": false,
+  "ocrScannedPdfAttachments": false,
+  "enableVaultActions": true,
+  "showAgentDebug": false,
+  "renderMarkdownInChat": true,
+  "workflowDefaults": {
+    "recipes": {
+      "weekly-review": {
+        "scopeOption": "current-folder",
+        "tagValue": "",
+        "targetNote": "",
+        "outputFolder": "",
+        "titleTemplate": "Weekly Review - YYYY-MM-DD"
+      },
+      "meeting-notes-to-tasks": {
+        "scopeOption": "current-note",
+        "tagValue": "",
+        "targetNote": "",
+        "outputFolder": "",
+        "titleTemplate": ""
+      },
+      "project-status-summary": {
+        "scopeOption": "tag",
+        "tagValue": "#project",
+        "targetNote": "",
+        "outputFolder": "",
+        "titleTemplate": ""
+      }
+    }
+  },
+  "vaultRadarAutoRun": false,
+  "vaultRadarAutoRunEnabledAt": 0,
+  "vaultRadarMaxNotes": 12
+}
